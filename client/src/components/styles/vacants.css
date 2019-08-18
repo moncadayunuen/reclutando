@@ -1,0 +1,82 @@
+.vacant-content{
+    width: 100%;
+    background: var(--white);
+    display: flex;
+}
+
+.forms-vacants{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px 5px;
+    border-right: .05rem solid var(--red);
+    background: var(--white);
+}
+
+.vacants{
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.vacant-card{
+    width: 50%;
+    margin: 15px auto;
+    display: flex;
+    background: var(--white);
+    border: .05rem solid rgba(0,0,0,.2);
+    box-shadow: 0 0 .2rem rgba(0, 0, 0, 0.2);
+}
+
+/* .info-vacant-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+} */
+
+.img-vacant {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-vacant img {
+    padding: 2px;
+    background: var(--white);
+}
+
+.content-card{
+    width: 100%;
+    padding: 0 20px;
+}
+
+.date-vacant-card{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-vacant{
+    width: 89%;
+    height: 15px;
+    padding: 6% 5%;
+    margin: 10px auto;
+    border-radius: 3px;
+    border: .05rem solid rgba(0, 0, 0, 0.2);
+}
+
+.select {
+    width: 100%;
+    padding: 6% 5%;
+    margin: 10px auto;
+    border-radius: 3px;
+}
+
+.select option{
+    color: var(--white);
+    background: var(--blue);
+}

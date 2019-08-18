@@ -1,0 +1,155 @@
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+}
+.ml-2 {
+  margin-left: 10px;
+}
+.content-panel {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background: var(--white);
+}
+.row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px 0;
+}
+.profile-card {
+  width: 180px;
+  height: 150px;
+  padding: 20px;
+  margin: 10px 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border: .05rem solid var(--gray);
+  background: var(--white);
+  box-shadow: 0 0 15px rgba(0,0,0,.1);
+  transition: .3s ease-in-out;
+}
+
+.profile-card .profile-icon {
+  font-size: 25px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--red);
+  padding: 30px;
+  border-radius: 100%;
+  border: 1px solid var(--red);
+}
+.profile-card:hover {
+  transform: scale(1.1);
+}
+.profile-link {
+  text-decoration: none;
+  font-size: 14px;
+  padding: 0 5px;
+  margin: 10px 0;
+  font-weight: bold;
+  color: var(--blue);
+}
+¿
+.profile-link:hover {
+  color: var(--red);
+  margin-left: 15px;
+}
+.profile-user {
+  width: 100%;
+  padding: 10px 0;
+  display: flex;
+  background: var(--blue);
+}
+.container-user {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  padding: 10px;
+}
+.avatar {
+  width: 80px;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.avatar img {
+  width: 100%;
+  height: auto;
+  border-radius: 100%;
+  background: var(--white);
+  border: 3px solid var(--white);
+}
+.user-info {
+  padding: 0 20px;
+  color: var(--white);
+  font-size: 14px;
+}
+
+.table-hover {
+  width: 100%;
+  border: 1px solid var(--dark);
+  border-collapse: collapse;
+  margin: 10px 0;
+  text-align: center;
+  transition: .5s ease-in-out;
+}
+.table-hover th, .table-hover td {
+  border-bottom: 1px solid var(--gray);
+  padding: 12px 15px;
+}
+.table-hover thead tr {
+  border-top: 1px solid var(--gray);
+  border-bottom: 3px solid var(--gray);
+}
+.table-hover tbody tr:hover {
+  background: rgba(0,0,0,.1);
+}
+.link-blue {
+  color: rgb(0, 162, 255);
+  padding: 7px;
+  border: 1px solid rgb(0, 162, 255);
+  border-radius: 3px;
+  margin: 0 5px;
+  transition: .3s ease-in-out; 
+}
+.link-blue:hover {
+  color: var(--white);
+  background: rgb(0, 162, 255);
+  border: 1px solid rgb(0, 162, 255);
+}
+.link-green {
+  color: rgb(113, 207, 36);
+  padding: 7px;
+  border: 1px solid rgb(113, 207, 36);
+  border-radius: 3px;
+  margin: 0 5px;
+  transition: .3s ease-in-out; 
+}
+.link-green:hover {
+  color: var(--white);
+  background: rgb(113, 207, 36);
+}
+.link-red {
+  color: rgb(231, 16, 16);
+  padding: 7px;
+  margin: 0 5px;
+  border: 1px solid rgb(231, 16, 16);
+  border-radius: 3px;
+  transition: .3s ease-in-out; 
+}
+.link-red:hover {
+  color: var(--white);
+  background: rgb(231, 16, 16);
+}

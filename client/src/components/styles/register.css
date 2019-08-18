@@ -1,0 +1,118 @@
+.padding-top{
+    background: var(--white);
+    height: 60px;
+}
+section{
+    width: 100%;
+    padding: 15px 10px;
+    margin: 0 auto;
+    background: var(--white);
+}
+.form-register{
+    width: 500px;
+    margin: 0 auto;
+}
+.form-input-register{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 3px;
+    border: .05rem solid var(--gray);
+}
+.form-input-register:hover ,.form-input-register:focus{
+    background: rgba(233, 233, 233, 0.5);
+}
+.btn-social-accounts{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0;
+}
+.radio-buttons{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.form-group{
+    display: flex;
+    justify-content: space-around;
+}
+.icon-google{
+    font-size: 25px;
+    color: var(--white);
+    width: max-content;
+    padding: 5px 10px;
+    margin: 0 15px 0 0;
+    border-right: .05rem solid var(--white);
+    display: inline-block;
+}
+.btn-google{
+    color: var(--white);
+    background: #DB4437;
+    border: none;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 0 15px 0 0;
+    margin: 5px 0;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: .3s ease-in-out;
+}
+.btn-google:hover{
+    background: rgb(194, 43, 43)
+}
+.icon-facebook{
+    font-size: 25px;
+    color: var(--white);
+    width: max-content;
+    padding: 5px 15px;
+    margin: 0 15px 0 0;
+    border-right: .05rem solid var(--white);
+    display: inline-block;
+}
+.btn-facebook{
+    color: var(--white);
+    background: #3c5a99;
+    text-decoration: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    padding: 0 15px 0 0;
+    margin: 5px 0;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: .3s ease-in-out;
+}
+.btn-facebook:hover{
+    background: #324c85;
+}
+
+@media (max-width: 768px) {
+    .form-register{
+        width: 400px;
+        margin: 0 auhref;
+    }
+}
+
+@media (max-width: 480px) {
+    .form-register{
+        width: 300px;
+        margin: 0 auhref;
+    }
+}
+
+@media (max-width: 320px) {
+    .form-register{
+        width: 270px;
+        margin: 0 auhref;
+    }
+}
+
+.form-register textarea {
+    width: 100%;
+}
